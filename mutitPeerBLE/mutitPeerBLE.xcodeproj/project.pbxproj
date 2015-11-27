@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0B34F31BEC73C200D16050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B34F21BEC73C200D16050 /* main.m */; };
+		3A0B34F61BEC73C200D16050 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B34F51BEC73C200D16050 /* AppDelegate.m */; };
+		3A0B34F91BEC73C200D16050 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B34F81BEC73C200D16050 /* ViewController.m */; };
+		3A0B34FC1BEC73C300D16050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B34FA1BEC73C300D16050 /* Main.storyboard */; };
+		3A0B34FE1BEC73C300D16050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B34FD1BEC73C300D16050 /* Assets.xcassets */; };
+		3A0B35011BEC73C300D16050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B34FF1BEC73C300D16050 /* LaunchScreen.storyboard */; };
+		3A0B350C1BEC73C300D16050 /* mutitPeerBLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B350B1BEC73C300D16050 /* mutitPeerBLETests.m */; };
+		3A0B35171BEC73C300D16050 /* mutitPeerBLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B35161BEC73C300D16050 /* mutitPeerBLEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A0B35081BEC73C300D16050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A0B34E61BEC73C200D16050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0B34ED1BEC73C200D16050;
+			remoteInfo = mutitPeerBLE;
+		};
+		3A0B35131BEC73C300D16050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A0B34E61BEC73C200D16050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0B34ED1BEC73C200D16050;
+			remoteInfo = mutitPeerBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0B34EE1BEC73C200D16050 /* mutitPeerBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mutitPeerBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0B34F21BEC73C200D16050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A0B34F41BEC73C200D16050 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A0B34F51BEC73C200D16050 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A0B34F71BEC73C200D16050 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A0B34F81BEC73C200D16050 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A0B34FB1BEC73C300D16050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A0B34FD1BEC73C300D16050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0B35001BEC73C300D16050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A0B35021BEC73C300D16050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0B35071BEC73C300D16050 /* mutitPeerBLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mutitPeerBLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0B350B1BEC73C300D16050 /* mutitPeerBLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mutitPeerBLETests.m; sourceTree = "<group>"; };
+		3A0B350D1BEC73C300D16050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0B35121BEC73C300D16050 /* mutitPeerBLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mutitPeerBLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0B35161BEC73C300D16050 /* mutitPeerBLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mutitPeerBLEUITests.m; sourceTree = "<group>"; };
+		3A0B35181BEC73C300D16050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0B34EB1BEC73C200D16050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B35041BEC73C300D16050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B350F1BEC73C300D16050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0B34E51BEC73C200D16050 = {
+			isa = PBXGroup;
+			children = (
+				3A0B34F01BEC73C200D16050 /* mutitPeerBLE */,
+				3A0B350A1BEC73C300D16050 /* mutitPeerBLETests */,
+				3A0B35151BEC73C300D16050 /* mutitPeerBLEUITests */,
+				3A0B34EF1BEC73C200D16050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0B34EF1BEC73C200D16050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B34EE1BEC73C200D16050 /* mutitPeerBLE.app */,
+				3A0B35071BEC73C300D16050 /* mutitPeerBLETests.xctest */,
+				3A0B35121BEC73C300D16050 /* mutitPeerBLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0B34F01BEC73C200D16050 /* mutitPeerBLE */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B34F41BEC73C200D16050 /* AppDelegate.h */,
+				3A0B34F51BEC73C200D16050 /* AppDelegate.m */,
+				3A0B34F71BEC73C200D16050 /* ViewController.h */,
+				3A0B34F81BEC73C200D16050 /* ViewController.m */,
+				3A0B34FA1BEC73C300D16050 /* Main.storyboard */,
+				3A0B34FD1BEC73C300D16050 /* Assets.xcassets */,
+				3A0B34FF1BEC73C300D16050 /* LaunchScreen.storyboard */,
+				3A0B35021BEC73C300D16050 /* Info.plist */,
+				3A0B34F11BEC73C200D16050 /* Supporting Files */,
+			);
+			path = mutitPeerBLE;
+			sourceTree = "<group>";
+		};
+		3A0B34F11BEC73C200D16050 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B34F21BEC73C200D16050 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A0B350A1BEC73C300D16050 /* mutitPeerBLETests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B350B1BEC73C300D16050 /* mutitPeerBLETests.m */,
+				3A0B350D1BEC73C300D16050 /* Info.plist */,
+			);
+			path = mutitPeerBLETests;
+			sourceTree = "<group>";
+		};
+		3A0B35151BEC73C300D16050 /* mutitPeerBLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B35161BEC73C300D16050 /* mutitPeerBLEUITests.m */,
+				3A0B35181BEC73C300D16050 /* Info.plist */,
+			);
+			path = mutitPeerBLEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0B34ED1BEC73C200D16050 /* mutitPeerBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0B351B1BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLE" */;
+			buildPhases = (
+				3A0B34EA1BEC73C200D16050 /* Sources */,
+				3A0B34EB1BEC73C200D16050 /* Frameworks */,
+				3A0B34EC1BEC73C200D16050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mutitPeerBLE;
+			productName = mutitPeerBLE;
+			productReference = 3A0B34EE1BEC73C200D16050 /* mutitPeerBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A0B35061BEC73C300D16050 /* mutitPeerBLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0B351E1BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLETests" */;
+			buildPhases = (
+				3A0B35031BEC73C300D16050 /* Sources */,
+				3A0B35041BEC73C300D16050 /* Frameworks */,
+				3A0B35051BEC73C300D16050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0B35091BEC73C300D16050 /* PBXTargetDependency */,
+			);
+			name = mutitPeerBLETests;
+			productName = mutitPeerBLETests;
+			productReference = 3A0B35071BEC73C300D16050 /* mutitPeerBLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A0B35111BEC73C300D16050 /* mutitPeerBLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0B35211BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLEUITests" */;
+			buildPhases = (
+				3A0B350E1BEC73C300D16050 /* Sources */,
+				3A0B350F1BEC73C300D16050 /* Frameworks */,
+				3A0B35101BEC73C300D16050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0B35141BEC73C300D16050 /* PBXTargetDependency */,
+			);
+			name = mutitPeerBLEUITests;
+			productName = mutitPeerBLEUITests;
+			productReference = 3A0B35121BEC73C300D16050 /* mutitPeerBLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A0B34E61BEC73C200D16050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WT;
+				TargetAttributes = {
+					3A0B34ED1BEC73C200D16050 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3A0B35061BEC73C300D16050 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A0B34ED1BEC73C200D16050;
+					};
+					3A0B35111BEC73C300D16050 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A0B34ED1BEC73C200D16050;
+					};
+				};
+			};
+			buildConfigurationList = 3A0B34E91BEC73C200D16050 /* Build configuration list for PBXProject "mutitPeerBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A0B34E51BEC73C200D16050;
+			productRefGroup = 3A0B34EF1BEC73C200D16050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0B34ED1BEC73C200D16050 /* mutitPeerBLE */,
+				3A0B35061BEC73C300D16050 /* mutitPeerBLETests */,
+				3A0B35111BEC73C300D16050 /* mutitPeerBLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0B34EC1BEC73C200D16050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0B35011BEC73C300D16050 /* LaunchScreen.storyboard in Resources */,
+				3A0B34FE1BEC73C300D16050 /* Assets.xcassets in Resources */,
+				3A0B34FC1BEC73C300D16050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B35051BEC73C300D16050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B35101BEC73C300D16050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0B34EA1BEC73C200D16050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0B34F91BEC73C200D16050 /* ViewController.m in Sources */,
+				3A0B34F61BEC73C200D16050 /* AppDelegate.m in Sources */,
+				3A0B34F31BEC73C200D16050 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B35031BEC73C300D16050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0B350C1BEC73C300D16050 /* mutitPeerBLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0B350E1BEC73C300D16050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0B35171BEC73C300D16050 /* mutitPeerBLEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A0B35091BEC73C300D16050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0B34ED1BEC73C200D16050 /* mutitPeerBLE */;
+			targetProxy = 3A0B35081BEC73C300D16050 /* PBXContainerItemProxy */;
+		};
+		3A0B35141BEC73C300D16050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0B34ED1BEC73C200D16050 /* mutitPeerBLE */;
+			targetProxy = 3A0B35131BEC73C300D16050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A0B34FA1BEC73C300D16050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0B34FB1BEC73C300D16050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A0B34FF1BEC73C300D16050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0B35001BEC73C300D16050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A0B35191BEC73C300D16050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A0B351A1BEC73C300D16050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A0B351C1BEC73C300D16050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mutitPeerBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A0B351D1BEC73C300D16050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mutitPeerBLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A0B351F1BEC73C300D16050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mutitPeerBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mutitPeerBLE.app/mutitPeerBLE";
+			};
+			name = Debug;
+		};
+		3A0B35201BEC73C300D16050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mutitPeerBLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mutitPeerBLE.app/mutitPeerBLE";
+			};
+			name = Release;
+		};
+		3A0B35221BEC73C300D16050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mutitPeerBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mutitPeerBLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A0B35231BEC73C300D16050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mutitPeerBLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wt.mutitPeerBLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mutitPeerBLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0B34E91BEC73C200D16050 /* Build configuration list for PBXProject "mutitPeerBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B35191BEC73C300D16050 /* Debug */,
+				3A0B351A1BEC73C300D16050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0B351B1BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B351C1BEC73C300D16050 /* Debug */,
+				3A0B351D1BEC73C300D16050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A0B351E1BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B351F1BEC73C300D16050 /* Debug */,
+				3A0B35201BEC73C300D16050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A0B35211BEC73C300D16050 /* Build configuration list for PBXNativeTarget "mutitPeerBLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B35221BEC73C300D16050 /* Debug */,
+				3A0B35231BEC73C300D16050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A0B34E61BEC73C200D16050 /* Project object */;
+}
